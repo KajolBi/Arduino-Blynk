@@ -1,0 +1,55 @@
+1. Create a Blynk Account
+
+After you download the Blynk App, you’ll need to create a New Blynk account. This account is separate from the accounts used for the Blynk Forums, in case you already have one.
+
+We recommend using a real email address because it will simplify things later.
+
+Why do I need to create an account?
+
+An account is needed to save your projects and have access to them from multiple devices from anywhere. It’s also a security measure.
+
+You can always set up your own Private Blynk Server and have full control.
+2. Create a New Project
+
+After you’ve successfully logged into your account, start by creating a new project.
+
+Give it a name.
+
+3. Choose Your Hardware
+
+Select the hardware model you will use. Check out the list of supported hardware!
+
+4. Auth Token
+
+Auth Token is a unique identifier which is needed to connect your hardware to your smartphone. Every new project you create will have its own Auth Token. You’ll get Auth Token automatically on your email after project creation. You can also copy it manually. Click on devices section :
+
+Click on device :
+
+And you’ll see token :
+
+NOTE: Don’t share your Auth Token with anyone, unless you want someone to have access to your hardware.
+
+It’s very convenient to send it over e-mail. Press the e-mail button and the token will be sent to the e-mail address you used for registration. You can also tap on the Token line and it will be copied to the clipboard.
+
+Now press the “Create” button.
+
+5. Add a Widget
+
+Your project canvas is empty, let’s add a button to control our LED.
+
+Tap anywhere on the canvas to open the widget box. All the available widgets are located here. Now pick a button.
+
+Widget Box
+
+Drag-n-Drop - Tap and hold the Widget to drag it to the new position.
+
+Widget Settings - Each Widget has it’s own settings. Tap on the widget to get to them.
+
+The most important parameter to set is PIN . The list of pins reflects physical pins defined by your hardware. If your LED is connected to Digital Pin 8 - then select D8 (D - stands for Digital).
+
+6. Run The Project
+
+When you are done with the Settings - press the PLAY button. This will switch you from EDIT mode to PLAY mode where you can interact with the hardware. While in PLAY mode, you won’t be able to drag or set up new widgets, press STOP and get back to EDIT mode.
+
+You will get a message saying “Arduino UNO is offline”. We’ll deal with that in the next section.
+
